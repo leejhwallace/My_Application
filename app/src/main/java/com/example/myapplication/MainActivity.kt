@@ -394,6 +394,10 @@ fun String1View(navController: NavHostController, viewModel: MainViewModel) {
 
     }
 }
+@Composable
+fun app1() {
+    
+}
 
 @Preview(showBackground = true)
 @Composable

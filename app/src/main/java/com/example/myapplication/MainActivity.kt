@@ -396,7 +396,9 @@ fun String1View(navController: NavHostController, viewModel: MainViewModel) {
 }
 @Composable
 fun app1() {
-    
+    Column {
+        Text("Hello World")
+    }
 }
 
 @Preview(showBackground = true)
